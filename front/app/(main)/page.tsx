@@ -1,8 +1,8 @@
-import { HeroSection } from "@/components/sections/HeroSection";
-import { FeatureSection } from "@/components/sections/FeatureSection";
-import { HowItWorksSection } from "@/components/sections/HowItWorksSection";
-import { CtaSection } from "@/components/sections/CtaSection";
-import NavBar  from "@/components/common/NavBar"; // NavBar 컴포넌트 임포트
+import { HeroSection } from "@/components/domain/home/HeroSection";
+import { FeatureSection } from "@/components/domain/home/FeatureSection";
+import { HowItWorksSection } from "@/components/domain/home/HowItWorksSection";
+import { CtaSection } from "@/components/domain/home/CtaSection";
+import  NavBar  from "@/components/layout/NavBar"; // NavBar 컴포넌트 임포트
 
 export default function Home() {
   return (
@@ -14,4 +14,4 @@ export default function Home() {
       <CtaSection />
     </div>
   );
-}
+};
