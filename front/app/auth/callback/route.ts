@@ -16,5 +16,5 @@ export async function GET(request: Request) {
   }
 
   console.error("Authentication failed!");
-  return NextResponse.redirect(`${origin}/signin?error=auth_failed`);
+  return NextResponse.redirect(`${origin}/auth/signin?error=auth_failed`);
 }
